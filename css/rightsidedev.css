@@ -1,0 +1,190 @@
+/* CSS Style Sheet for rightsidedev.io 
+Mandy Kopelke Aug 2019 */
+
+/* Phone */
+@media screen and (max-width: 768px) { 
+    .test-backdrop {
+        width: 100%;
+        height: 600px;
+    }
+}
+
+/* Portrait Tablets */
+@media screen and (min-width: 769px) and (max-width: 992px) { 
+    .test-backdrop {
+        width: 100%;
+        height: 800px;
+    }
+}
+
+/* Landscape Tablets */
+@media screen and (min-width: 993px) and (max-width: 1199px) { 
+    .test-backdrop {
+        width: 100%;
+        height: 800px;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1200px) { 
+    .test-backdrop {
+        width: 100%;
+        height: 800px;
+        object-position: center;
+    }
+}
+
+/* Background gradient */
+#grad {
+    background-image: linear-gradient(#F6BA55, #FF585B);
+}
+
+.test-margin {
+    margin-top: 100px;
+}
+
+.footer {
+    background-color: #FFFFFF;
+}
+
+/* Paragraph text color */
+p {
+    color: #414042;    
+}
+
+/* Center buttons */
+.center-btn {
+    text-align: center;
+    padding: 10px;
+}
+
+.copyright {
+    text-align: center;
+    padding: 10px;
+    color: #414042;
+}
+
+/* Social media column positioning */
+.social-media {
+    text-align: center;
+    padding: 4px
+}
+
+/* Social media icons - footer */
+.social-icons {
+    width: 40px;
+    height: 40px;
+    padding: 4px;
+}
+
+.logo-style {
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Section Text Headers */
+.section-header {
+    font-family: 'Anton', sans-serif;
+    font-size: 2em;
+    color: #4F7177;
+    padding-top: 10px;
+}
+
+/* Add white space between the job rows */
+.job-row {
+    padding: 10px;
+}
+
+/* padding around the experience and skills section (work) */
+.experience-pad {
+    padding: 20px;
+}
+
+/* Center the skills icons container */
+.skills-center {
+    text-align: center;
+}
+
+/* Size the skills icons row */
+.skills-row {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* position the skills icon and associated text within the skills row */
+.skills-row div div {
+    margin: 0 auto;
+}
+
+/* styles for job name column on work page */
+.work-name {
+    background-color: #92D3DE; 
+    text-align: center;
+    padding: 10px;
+}
+
+/* styles for the job name h3 text */
+.job-name-txt {
+    color: #414042;
+    text-emphasis: bold;
+    font-size: 1em;
+}
+
+/* styles for the work description column on work page */
+.work-desc {
+    background-color: rgba(146,211,222,0.5);
+    padding: 10px;
+}
+
+/* style header text in jumbotron on about page */
+.tag-line{
+    color: #414042;
+}
+
+/* style jumbotron on about page */
+.jumbo-color {
+    background-color: rgba(146,211,222,0.5);
+}
+
+/* style title in jumbotron on about page */
+.jumbo-title {
+    color: #414042;
+    text-emphasis: normal;
+}
+
+/* correctly size images on featured blog posts */
+.blog-featured-images {
+    object-fit: contain;
+    height: 100%;
+}
+
+/* correctly size images on individual blog posts */
+.blog-post-image {
+    object-fit: contain;
+}
+
+/* styling for sitewide links */
+a:link {
+    color: #58A9B7; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: #4F7177;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color:  #414042;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: #92D3DE;
+    background-color: transparent;
+    text-decoration: none;
+}
