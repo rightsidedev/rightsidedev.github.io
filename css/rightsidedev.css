@@ -35,8 +35,12 @@ Mandy Kopelke Aug 2019 */
 }
 
 /* Background gradient */
-#grad {
+#grad-front {
     background-image: linear-gradient(#F6BA55, #FF585B);
+}
+
+#grad-projects {
+    background-image: linear-gradient(rgb(198, 246, 85), rgb(255, 230, 88));
 }
 
 .test-margin {

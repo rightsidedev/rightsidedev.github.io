@@ -1,4 +1,4 @@
-# Webfolio Assignment - Term 1
+# Personal Webfolio
 
 ## Description
 
