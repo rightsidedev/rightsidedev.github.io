@@ -3,7 +3,7 @@ Mandy Kopelke Aug 2019 */
 
 /* Phone */
 @media screen and (max-width: 768px) { 
-    .test-backdrop {
+    .fit-to-screen {
         width: 100%;
         height: 600px;
     }
@@ -11,7 +11,7 @@ Mandy Kopelke Aug 2019 */
 
 /* Portrait Tablets */
 @media screen and (min-width: 769px) and (max-width: 992px) { 
-    .test-backdrop {
+    .fit-to-screen {
         width: 100%;
         height: 1200px;
     }
@@ -19,7 +19,7 @@ Mandy Kopelke Aug 2019 */
 
 /* Landscape Tablets */
 @media screen and (min-width: 993px) and (max-width: 1199px) { 
-    .test-backdrop {
+    .fit-to-screen {
         width: 100%;
         height: 900px;
     }
@@ -27,7 +27,7 @@ Mandy Kopelke Aug 2019 */
 
 /* Desktop */
 @media screen and (min-width: 1200px) { 
-    .test-backdrop {
+    .fit-to-screen {
         width: 100%;
         height: 800px;
         object-position: center;
@@ -35,11 +35,11 @@ Mandy Kopelke Aug 2019 */
 }
 
 /* Background gradient */
-#grad-front {
+#homepage {
     background-image: linear-gradient(#F6BA55, #FF585B);
 }
 
-#grad-projects {
+#projects {
     background-image: linear-gradient(#c6f655, #ffe658);
 }
 
@@ -51,10 +51,10 @@ Mandy Kopelke Aug 2019 */
     background-color: #FFFFFF;
 }
 
-/* Paragraph text color */
+/* Paragraph text color
 p {
-    color: #414042;    
 }
+*/
 
 /* Center buttons */
 .center-btn {
@@ -87,11 +87,10 @@ p {
 }
 
 /* Section Text Headers */
-.section-header {
-    font-family: 'Anton', sans-serif;
-    font-size: 2em;
-    color: #4F7177;
-    padding-top: 10px;
+.page-title {
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 50px;
 }
 
 /* Add white space between the job rows */
